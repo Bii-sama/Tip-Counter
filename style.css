@@ -1,6 +1,7 @@
 
 body{
     background-color: #000;
+    font-family: "Space Grotesk";
 }
 
 #square{
@@ -17,8 +18,15 @@ body{
     width: 350px;
     height: 180px;
     position: relative;
-    bottom: 470px;
+    bottom: 520px;
     left: 70px;
-  
     
+}
+
+#bg-card-back{
+    width: 350px;
+    height: 180px;
+    position: relative;
+    bottom: 480px;
+    left: 100px;
 }
