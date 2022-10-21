@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Form Validation</title>
 </head>
 <body>
     <main id="square">
 
  <div id="firstHalf">
-<img src="bg-main-desktop.png" alt="bg-main-desktop">
-<div id="bg-card-front"></div>
+<img src="bg-main-desktop.png" alt="bg-main-desktop" width="320px" height="600">
+<div id="bg-card-front">
+    <img src="bg-card-front.png" alt="Card" width="350" height="180">
+</div>
 <div id="bg-card-back"></div>
  </div>
 
@@ -23,7 +25,7 @@
   <label for="Card Number">CARD NUMBER</label>
   <input type="number" placeholder="0000 0000 0000 0000" required>
   <label for="Exp Date">EXP DATE</label>
-  <input type="month" placeholder="mm" required>
+  <input type="number" placeholder="mm" min="01" max="12" required>
   <input type="year" placeholder="yyyy" required>
   <label for="cvc">CVC</label>
   <input type="number" placeholder="000" required>

@@ -1,0 +1,24 @@
+
+body{
+    background-color: #000;
+}
+
+#square{
+    background-color:#fff;
+    width: 950px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg-card-front{
+    width: 350px;
+    height: 180px;
+    position: relative;
+    bottom: 470px;
+    left: 70px;
+  
+    
+}
