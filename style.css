@@ -59,7 +59,7 @@ body{
 }
 
 #secondHalf form input{
-    width: auto;
+    width: 250px;
     height: 22px;
     margin-top: 3px;
     border-color: #bfbfbf;
@@ -68,10 +68,26 @@ body{
     font-family: "Space Grotesk";
 }
 
+#secondHalf form #title{
+    word-spacing: 14px;
+}
+
+#secondHalf form #mm{
+    width: 45px;
+}
+
+#secondHalf form #yy{
+    width: 45px;
+}
+
+#secondHalf form #cvc{
+    width: 140px;
+}
+
 
 #secondHalf form button{
     display: block;
-    width: 370px;
+    width: 254px;
     padding-top: 7px;
     padding-bottom: 7px;
     font-family: "Space Grotesk";
