@@ -47,12 +47,36 @@ body{
     color: #fff;
 }
 
+#cardro{
+    position: relative;
+    bottom: 160px;
+    left: 30px;
+    font-size: 10.5px;
+    color: #fff;
+}
+
+#cardzo{
+    position: relative;
+    bottom: 184px;
+    left: 280px;
+    font-size: 10.5px;
+    color: #fff;  
+}
+
 #bg-card-back{
     width: 350px;
     height: 180px;
     position: relative;
     bottom: 480px;
     left: 140px;
+}
+
+#cardlo{
+    position: relative;
+    bottom: 115px;
+    left: 280px;
+    font-size: 10.5px;
+    color: #fff;
 }
 
 #secondHalf form{
