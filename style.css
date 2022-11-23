@@ -33,6 +33,20 @@ body{
     
 }
 
+#logo{
+    position: relative;
+    bottom: 160px;
+    left: 30px;
+}
+
+#cardpo{
+    position: relative;
+    bottom: 160px;
+    left: 30px;
+    font-size: 25px;
+    color: #fff;
+}
+
 #bg-card-back{
     width: 350px;
     height: 180px;
