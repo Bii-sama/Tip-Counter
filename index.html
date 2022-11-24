@@ -27,15 +27,18 @@
  </div>
 
  <div id="secondHalf">
-  <form action="#">
+  <form action="#" id="signup">
   <label for="Cardholder Name">CARDHOLDER NAME</label>
   <input type="text" placeholder="e.g Adeola Omo" id="cardholder" required>
   <label for="Card Number">CARD NUMBER</label>
   <input type="number" placeholder="0000 0000 0000 0000" id="cardno" required>
+  <p id="error" class="error-message">Wrong format, numbers only</p>
   <label for="Exp Date" id="title">EXP/DATE MM/YY CVC </label>
   <input type="number" placeholder="MM" min="01" max="12" id="mm"  required>
+  
   <input type="year" placeholder="YYYY" id="yy"   required>
   <input type="number" placeholder="000" id="cvc" required>
+  <p id="error3" class="error-message">Can't be blank </p>
 
 
   <button type="submit">Confirm</button>

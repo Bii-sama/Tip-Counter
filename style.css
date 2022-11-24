@@ -106,6 +106,10 @@ body{
     font-family: "Space Grotesk";
 }
 
+.border{
+    border-color: red;
+}
+
 #secondHalf form #title{
     word-spacing: 14px;
 }
@@ -120,6 +124,12 @@ body{
 
 #secondHalf form #cvc{
     width: 140px;
+}
+
+.error-message{
+    color: red;
+    font-size: 10px;
+    visibility: hidden;
 }
 
 

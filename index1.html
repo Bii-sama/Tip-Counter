@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <title>Form Validation</title>
+</head>
+<body>
+<div class="formbox">
+
+<h1>Create Account</h1>
+<form id="form">
+  <div class="label success">
+<label>Username</label><br>
+<input type="text" placeholder="Enter Your Name" id="username">
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error Message</small><br>
+</div>
+
+<div class="label error">
+<label>Email</label><br>
+<input type="email" placeholder="Enter Your Email" id="email">
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error Message</small><br>
+</div>
+
+<div class="label">
+<label>Password</label><br>
+<input type="password" placeholder="Enter Your Password" id="password">
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error Message</small><br>
+</div>
+
+<div class="label">
+<label>Confirm Password</label><br>
+<input type="password" placeholder="Enter Your Password" id="password2">
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error Message</small><br>
+</div>
+<button id = "Submit">Submit</button>
+</form>
+
+</div>
+
+<script src ="script.js"></script>
+</body>
+</html>
